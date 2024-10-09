@@ -63,4 +63,6 @@ Once you've correctly implemented the composables:
 
 - If you see the `data-test` attribute in the boilerplate don't remove it. If you remove it, your code may be invalid for the certificate.
 
+- You may use TypeScript if you desire but it is not required
+
 - It is NOT necessary to have the exact same styles as in the GIF above, or even any styles at all.
