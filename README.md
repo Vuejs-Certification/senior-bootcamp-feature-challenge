@@ -57,7 +57,7 @@ Once you've correctly implemented the composables:
 
 - When a keyword is typed quickly within 200 ms, the request is only triggered only once at the end of the input
 
-![Screenshot of the solution](./screenshot.gif)
+![Screenshot of the solution](https://raw.githubusercontent.com/Vuejs-Certification/senior-bootcamp-feature-challenge/refs/heads/main/screenshot.gif)
 
 ## Other Considerations
 
