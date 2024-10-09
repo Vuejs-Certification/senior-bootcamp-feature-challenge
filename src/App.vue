@@ -20,7 +20,7 @@ const { data, isFetching } = useFetch(
 // const dynamicUrl = computed(() => `/contact-list?keyword=${debouncedKeyword.value}`);
 // const { data, isFetching } = useFetch(dynamicUrl, { data: [], total: 0 });
 
-const contacts = computed(() => data.value.data);
+const contacts = computed(() => data.value?.data);
 </script>
 
 <template>

@@ -1,16 +1,7 @@
-import { watch, ref, readonly } from "vue";
-
+import { ref } from "vue";
 export const useRefDebounced = (aRef, ms) => {
-  const debouncedRef = ref(aRef.value);
-
-  watch(
-    aRef,
-    debounce(() => {
-      debouncedRef.value = aRef.value;
-    }, ms)
-  );
-
-  return readonly(debouncedRef);
+  // use the debounce function defined below to return a debounced ref whose value only syncs with `aRef` after `ms` milliseconds
+  return ref();
 };
 
 function debounce(func, delay) {
