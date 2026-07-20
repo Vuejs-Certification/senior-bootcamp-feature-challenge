@@ -1,5 +1,5 @@
 import { describe, it, expect, beforeAll, afterAll } from "vitest";
-import { useRefDebounced, useFetch } from "./src/composables";
+import { useRefDebounced, useFetch } from "../src/composables";
 import { ref, computed, watch, nextTick } from "vue";
 import { setupServer, closeServer, getURL } from "./fixtures/http-server";
 function sleep(ms) {
